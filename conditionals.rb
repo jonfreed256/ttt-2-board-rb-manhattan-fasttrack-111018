@@ -2,6 +2,7 @@ name = "Ben"
 
 if name == "Jon"
   puts "Hello Jon!"
-else "You are not Jon"
+else
+  puts "You are not Jon"
 
 end
