@@ -5,7 +5,9 @@ input = gets.chomp
 def greet(name)
   if name == "Jon"
     puts "Hello #{name}!"
-  else 
+  elsif name = "Ben"
+    puts "I was expecting you #{input}"
+  else
     puts "You are not Jon"
   end
 end
