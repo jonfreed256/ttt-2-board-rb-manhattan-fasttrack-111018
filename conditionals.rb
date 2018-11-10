@@ -2,9 +2,9 @@ puts "Hello! What's your name?"
 
 input = gets.chomp
 
-def greet
+def greet(name)
 if input == "Jon"
-  puts "Hello #{input}!"
+  puts "Hello #{name}!"
 end
 end
 
