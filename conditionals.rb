@@ -1,8 +1,9 @@
-name = "Ben"
+puts "Hello! What's your name?"
 
-if name == "Jon"
-  puts "Hello Jon!"
-else
-  puts "You are not Jon"
+input = gets.chomp
 
+name = "Jon"
+
+if input == "Jon"
+  puts "Hello #{input}!"
 end
