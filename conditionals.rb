@@ -1,4 +1,4 @@
-name = "Jon"
+name = "Ben"
 
 if name == "Jon"
   puts "Hello Jon!"
