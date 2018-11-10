@@ -8,4 +8,4 @@ if input == "Jon"
 end
 end
 
-greet
+greet(input)
